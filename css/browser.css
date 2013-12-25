@@ -1,0 +1,75 @@
+.browser{
+    list-style: none;
+    margin: 0;
+    *zoom:1;
+}
+.browser:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.browser-icon{
+    float:left;
+}
+.browser-icon:first-child{
+    margin-left: -28px;
+    *margin-left: 0;
+}
+.ie{
+    float: right;
+}
+.browser-icon-link{
+    display: block;
+    width:126px;
+    height:126px;
+    overflow: hidden;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 126px;
+}
+.browser-icon-image{
+    margin-left:-28px;
+    -moz-force-broken-image-icon:1;
+    vertical-align: middle;
+    min-width: 28px;
+    border:none;
+}
+.browser-icon-text{
+    width:126px;
+    text-align:center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: arial, sans-serif;
+}
+.chrome .browser-icon-text{
+    color:#f9d411;
+}
+.chrome1{
+    color:#22a12a;
+}
+.chrome2{
+    color:#c90000;
+}
+.firefox .browser-icon-text{
+    color:#f2a414;
+}
+.opera .browser-icon-text{
+    color:#c10e0e;
+}
+.safari .browser-icon-text{
+    color:#646464;
+}
+.yandex .browser-icon-text{
+    color:#000;
+}
+.yandex1{
+    color:#f00;
+}
+.ie .browser-icon-text{
+    color:#036da3;
+}
