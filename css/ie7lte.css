@@ -1,0 +1,16 @@
+.browser{
+    zoom:1;
+    position: relative;
+}
+.browser-icon:first-child{
+    margin-left: 0;
+}
+.browser-icon-link{
+    display: block;
+}
+.browser-icon-text{
+    margin-top: inherit;
+    *clear: expression(style.marginTop = "" + (offsetHeight < parentNode.offsetHeight ? parseInt((parentNode.offsetHeight - offsetHeight) / 2) + "px" : "0"),
+    style.clear = "none", 0
+    );
+}
